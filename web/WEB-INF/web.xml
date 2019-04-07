@@ -13,7 +13,9 @@
          -->
         <init-param>
             <param-name>contextConfigLocation</param-name>
-            <param-value>classpath:springmvc.xml</param-value>
+            <!--first course-->
+            <!--<param-value>classpath:springmvc.xml</param-value>-->
+            <param-value>classpath:springmvcnew.xml</param-value>
         </init-param>
     </servlet>
 

@@ -18,7 +18,7 @@ public class ItemsController3 {
     public ModelAndView queryItems()throws Exception{
 
         //调用service查找 数据库，查询商品列表，这里使用静态数据模拟
-        List<Items> itemsList = new ArrayList<Items>();
+        List<Items> itemsList = new ArrayList<Items>(); 
         //向list中填充静态数据
 
         Items items_1 = new Items();

@@ -13,9 +13,8 @@ import java.util.List;
 public class ItemsController2 implements HttpRequestHandler {
 
     @Override
-    public void handleRequest(HttpServletRequest request,
-                              HttpServletResponse response) throws ServletException, IOException {
-
+    public void handleRequest(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
         //调用service查找 数据库，查询商品列表，这里使用静态数据模拟
         List<Items> itemsList = new ArrayList<Items>();
         //向list中填充静态数据
