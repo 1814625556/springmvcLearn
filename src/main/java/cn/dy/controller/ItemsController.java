@@ -20,6 +20,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
+
+@Controller
 @RequestMapping("/itemsnew")
 public class ItemsController {
     // 商品查询
@@ -28,7 +30,7 @@ public class ItemsController {
                                    ItemsQueryVo itemsQueryVo) throws Exception {
         // 测试forward后request是否可以共享
 
-        System.out.println(request.getParameter("id"));
+//        System.out.println(request.getParameter("id"));
 
         // 调用service查找 数据库，查询商品列表
         List<ItemsCustom> itemsList = new ArrayList<ItemsCustom>();
